@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<title>RCPRODUCTION.kyoto</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="W3.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="file:///C:/Users/Ray/Desktop/homepage/index.html"><img src="img/logo.png" width="100" alt="rc product"></a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#" class="w3-button">Projects</a>
+      <a href="#" class="w3-button">About</a>
+      <a href="#" class="w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header>
+  <img class="mySlides" src="img/kyoto.jpg" style="width:100%">
+</div>
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span><img src="img/logo2.png" width="70" alt="RC"></span> <span class="w3-hide-small w3-text-light-grey">Production</span></h1>
+  </div>
+</header>
+
+<div>
+  <!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+    <div class="w3-container w3-padding-32">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Kyoto</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-white w3-opacity w3-hover-opacity-off"><a href="#"><img src="img/kyoto5.jpg" alt="DESIGN" style="width:100%"></a></div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-white w3-opacity w3-hover-opacity-off"><a href="#"><img src="img/kyoto2.jpg" alt="DRAWING" style="width:100%"></a></div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-white w3-opacity w3-hover-opacity-off"><a href="#"><img src="img/kyoto3.jpg" alt="DESIGN" style="width:100%"></a></div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-white w3-opacity w3-hover-opacity-off"><a href="#"><img src="img/kyoto4.jpg" alt="DRAWING" style="width:100%"></a></div>
+      </div>
+    </div>
+    </div>
+
+<footer>
+    <small>Copyright 2018 RC Production All rights Reserved.</small>
+  </footer>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3500); // Change image every 2 seconds
+}
+</script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
